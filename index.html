@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Pads - Quality Mouse Pads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-10px);
+        }
+        .cta-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            background: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-buttons a:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        form input, form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            padding: 10px 20px;
+            color: white;
+            background: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Precision Pads</h1>
+        <p>Quality Mouse Pads for Every Need</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="top-products.html">Top Products</a>
+        <a href="all-products.html">All Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="home" class="section">
+            <h2>Welcome to Precision Pads</h2>
+            <p>At Precision Pads, we offer top-quality mouse pads designed to enhance your computing and gaming experience. Explore our range of products and find the perfect pad for your needs.</p>
+            <div class="cta-buttons">
+                <a href="top-products.html">View Top Products</a>
+                <a href="all-products.html">Browse All Products</a>
+            </div>
+        </div>
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to Precision Pads, your destination for top-quality mouse pads designed to elevate your computing and gaming experience.</p>
+            <p>At Precision Pads, we understand the importance of a smooth and precise surface for your mouse. Whether you're a casual computer user, a passionate gamer, or a professional in need of high-performance peripherals, we have the perfect pad for you.</p>
+            <p>Our mouse pads are crafted with care using premium materials to ensure durability and optimal performance. With features like non-slip bases, smooth glide surfaces, and precise tracking, our pads are designed to enhance your productivity and gaming prowess.</p>
+            <p>But Precision Pads is more than just a retailer of mouse pads. We're a team of enthusiasts dedicated to providing exceptional products and outstanding customer service. We strive to exceed your expectations at every step, from browsing our selection to receiving your order.</p>
+            <p>Whether you're looking for a sleek and minimalist pad for your office setup or a vibrant and ergonomic pad for intense gaming sessions, we've got you covered. Explore our collection and experience the Precision Pads difference today!</p>
+        </div>
+        
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Have questions or need support? Reach out to us:</p>
+            <p>Email: <a href="mailto:lukemarkflying@gmail.com">lukemarkflying@gmail.com</a></p>
+            <p>Phone: +358415773415</p>
+            <h3>Feedback</h3>
+            <form action="mailto:lukemarkflying@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Feedback</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Precision Pads</p>
+    </footer>
+</body>
+</html>
